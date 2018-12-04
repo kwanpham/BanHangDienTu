@@ -1,0 +1,2242 @@
+
+
+
+   
+    .ngothe {
+        
+        -moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+        box-shadow:inset 0px 1px 0px 0px #fce2c1;
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25));
+        background:-moz-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+        background:-webkit-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+        background:-o-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+        background:-ms-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+        background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25',GradientType=0);
+        
+        background-color:#ffc477;
+        
+        -moz-border-radius:6px;
+        -webkit-border-radius:6px;
+        border-radius:6px;
+        
+        border:1px solid #eeb44f;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-family:arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:4px 5px;
+        text-decoration:none;
+        
+        text-shadow:0px 1px 0px #cc9f52;
+        
+    }
+    .ngothe:hover {
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477));
+        background:-moz-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+        background:-webkit-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+        background:-o-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+        background:-ms-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+        background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477',GradientType=0);
+        
+        background-color:#fb9e25;
+    }
+    .ngothe:active {
+        position:relative;
+        top:1px;
+    }
+
+
+
+/* =============== DEFAULT HTML - GENERAL STYLES =============== */
+html, body {
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+/* =============== DEFAULT HTML - TEXT STYLES =============== */
+p, pre, blockquote, form, dl, ul, ol, fieldset, address {
+	margin: 0.35em 0 0.8em 0;
+	padding: 0;
+}
+/* cart */
+.cart_right
+{
+    position: fixed;
+    width: 180px;
+    height: 70px;
+    right: 0px;
+    top: 200px;
+    background: url('images/giohang.png') no-repeat;
+}
+.cart_right p{font:normal 13px Arial;width:110px;padding:10px 0px 0px 70px;text-align:center;}
+fieldset {
+	padding: .5em;
+}
+small {
+	font-size: .85em;
+}
+sup {
+	font-size: .8em;
+	position: relative;
+	bottom: 0.3em;
+	vertical-align: baseline;
+}
+sup em {
+	color: red;
+}
+acronym, abbr {
+	border-bottom: 1px dashed;
+	letter-spacing: 1px;
+	cursor: help;
+}
+pre {
+	background: #FFFFD5;
+	font-family: "Courier New",Courier,monospace;
+	padding: 1em;
+	border-left: 5px solid #404040;
+}
+blockquote {
+	font-style: italic;
+	min-height: 45px;
+	color: #404040;
+	padding-left: 60px;
+	background: url(images/icon-text-blockquote.png) no-repeat top left;
+}
+input.inputbox {
+	padding: 3px;
+	color: #666;
+	border: 1px solid #B3B3B3;
+	background: #FFF url(images/bg-input.png) left bottom repeat-x;
+}
+input[value*="Login"] {
+    font-size: 0;
+    height: 29px;
+    width: 120px;
+    cursor: pointer;
+    color: transparent;
+    border: medium none;
+    background: url(images/icon-login.png) 0 -29px no-repeat;
+}
+input[value*="Log out"] {
+    font-size: 0;
+    height: 29px;
+    width: 120px;
+    cursor: pointer;
+    color: transparent;
+    border: medium none;
+    background: url(images/icon-login.png) 0 -87px no-repeat;
+}
+input[value*="Login"]:hover {
+	background-position: 0 0;
+}
+input[value*="Log out"]:hover {
+	background-position: 0 -58px;
+}
+hr {
+	border: none;
+	height: 1px;
+	background-color: #999;
+}
+/* =============== DEFAULT HTML - HEADING STYLES =============== */
+h1 {
+	font-size: 1.4em;
+	color: #000000;
+}
+h2 {
+	font-size: 1.3em;
+	color: #000000;
+}
+h3 {
+	font-size: 1.2em;
+	color: #CC3333;
+}
+h4 {
+	font-size: 1.1em;
+	color: #CC8033;
+}
+h5, h6 {
+	font-size: 1em;
+	font-weight: bold;
+	color: #333333;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0.8em 0 0.3em 0;
+}
+/* =============== DEFAULT HTML - LINK STYLES =============== */
+a {
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+a img {
+	border: none;
+}
+/* =============== DEFAULT HTML - LIST STYLES =============== */
+ul li {
+	margin: 0.3em 0 0.3em 1.6em;
+	padding: 0;
+}
+ol li {
+	margin: 0.3em 0 0.3em 2em;
+	padding: 0;
+}
+/* =============== DEFAULT HTML - IMAGES STYLES =============== */
+img {
+	border: none;
+}
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - GENERAL LAYOUT =============== */
+.clearafter:after {
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+.clearbreak {
+	clear: both;
+}
+div.wp-modulescontainer2 div.wp-modulecontainer {
+	float: left;
+	width: 49.95%;
+}
+div.wp-modulescontainer3 div.wp-modulecontainer {
+	float: left;
+	width: 33.3%;
+}
+div.wp-modulescontainer4 div.wp-modulecontainer {
+	float: left;
+	width: 24.975%;
+}
+div.wp-modulescontainer5 div.wp-modulecontainer {
+	float: left;
+	width: 19.98%;
+}
+div.wp-modulescontainer6 div.wp-modulecontainer {
+	float: left;
+	width: 16.65%;
+}
+div.wp-modulescontainer div.wp-modulecontainer_inner {
+	padding: 5px;
+}
+div.wp-modulescontainer2 #wp-pos-user1,
+div.wp-modulescontainer2 #wp-pos-user2,
+div.wp-modulescontainer2 #wp-pos-user3,
+div.wp-modulescontainer2 #wp-pos-user4,
+div.wp-modulescontainer2 #wp-pos-user5,
+div.wp-modulescontainer2 #wp-pos-user6,
+div.wp-modulescontainer2 #wp-pos-user7 {
+	float: left;
+	width: 49.95%;
+}
+div.wp-modulescontainer3 #wp-pos-user5,
+div.wp-modulescontainer3 #wp-pos-user6,
+div.wp-modulescontainer3 #wp-pos-user7 {
+	float: left;
+	width: 33.3%;
+}
+#wp-usermodules1 div.wp-modulecontainer,
+#wp-usermodules2 div.wp-modulecontainer,
+#wp-usermodules3 div.wp-modulecontainer {
+	float: none;
+	width: auto;
+}
+/* =============== LAYOUT - OVERALL PAGE =============== */
+#wp-page {
+	z-index: 88;
+	margin-top: -3px;
+	position: relative;
+}
+#wp-upper-decor {
+	left: 0;
+	top: 0;
+	z-index: 88;
+	width: 100%;
+	height: 20px;
+	position: absolute;
+}
+#wp-bottom-decor {
+	left: 0;
+	bottom: 0;
+	z-index: 88;
+	width: 100%;
+	height: 20px;
+	position: absolute;
+}
+#wp-body {
+	color: #666;
+}
+/* ----- STICKLEFT / STICKRIGHT ----- */
+div[id*=wp-pos-stick-] {
+	position: fixed;
+}
+div[id*=wp-pos-stick-left] {
+	left: 0;
+}
+div[id*=wp-pos-stick-right] {
+	right: 0;
+}
+#wp-pos-stick-leftmiddle,
+#wp-pos-stick-rightmiddle {
+	visibility: hidden;
+}
+#wp-pos-stick-leftbottom,
+#wp-pos-stick-rightbottom {
+	bottom: 0;
+}
+/* =============== LAYOUT - HEADER AREA =============== */
+#wp-header {
+	position: relative;
+	overflow: hidden;
+	background: url(images/bg-pattern.png) left top repeat;
+}
+#wp-logo {
+	float: left;
+	padding: 25px 0;
+}
+#wp-logo a {
+	line-height: 100%;
+	display: inline-block;
+}
+#wp-logo .wp-topheading {
+	display: none;
+}
+#wp-headerright {
+	float: right;
+}
+#wp-pos-top form {
+	margin: 4px 0;
+}
+/* =============== LAYOUT - MENU AREA =============== */
+#wp-menu {
+	color: #f2f2f2;
+	position: relative;
+	padding: 1px 0 3px 0;
+	z-index: 89;
+}
+#wp-pos-mainmenu {
+	width: 960px;
+	margin: 7px auto;
+}
+#wp-pos-toolbar {
+	float: right;
+}
+#wp-pos-toolbar div.wp-modulecontainer {
+	float: right;
+	margin-left: 10px;
+}
+#wp-pos-toolbar form {
+	margin: 0;
+}
+/* =============== LAYOUT - CONTENT TOP AREA =============== */
+#wp-content-top {
+	
+}
+#wp-content-top div.wp-modulecontainer {
+	width: auto;
+	display: block !important;
+}
+#wp-content-top div.wp-modulecontainer_inner {
+	padding: 0;
+}
+#wp-content-top .shopping-cart {
+	float: right;
+}
+#wp-content-top h3.wp-moduletitle {
+	color: #fff;
+}
+#wp-pos-promo-left div.wp-modulecontainer,
+#wp-pos-promo-right div.wp-modulecontainer {
+	padding: 18px 12px;
+}
+/* =============== MAIN NAVIGATION PANEL =============== */
+.virtuemart_advsearch form {
+	margin: 0;
+}
+.virtuemart_advsearch .inputbox,
+.virtuemart_advsearch select {
+	width: 300px;
+	color: #666;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 7px 3px 8px 3px;
+	background: #f2f2f2;
+	border: 2px solid #429EA7;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+.virtuemart_advsearch select option {
+	font-weight: normal;
+	margin: 2px;
+}
+.virtuemart_advsearch .search {
+	width: 106px;
+	height: 33px;
+	position: relative;
+	bottom: 3px;
+	font-size: 0;
+	color: transparent;
+	border: none;
+	cursor: pointer;
+	background: url(images/icon-search-button.png) 0 0 no-repeat;
+}
+.virtuemart_advsearch .search:hover {
+	background-position: 0 -33px;
+}
+#showcart {
+	float: left;
+}
+#showcart a {
+	font-size: 14px;
+	color: #AEDADF;
+	font-weight: bold;
+	padding: 8px 33px;
+	text-decoration: none;
+	background: url(images/icon-button-cyan.png) left center no-repeat;
+	text-shadow: 1px 1px 1px #00616F;
+
+}
+#showcart a:hover {
+	color: #FFF;
+}
+#cart_actions {
+	width: 42px;
+	height: 43px;
+	margin: -11px 0 0 5px;
+	background: url(images/icon-cart.png) left top no-repeat;
+}
+/* =============== LAYOUT - CONTENT AREA =============== */
+#wp-content,
+#wp-maincontent,
+#wp-centercol,
+#wp-leftsidecontent {
+	position: relative;
+}
+#wp-content {
+	margin-top: 15px;
+}
+#wp-leftsidecontent .wp-modulecontainer {
+	margin: 0 5px 10px 0;
+}
+#wp-centercol_inner {
+	margin: 0 5px;
+	background-color: #FFF;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 0 1px 3px #B1AA9F;
+	-moz-box-shadow: 0 1px 3px #B1AA9F;
+	-webkit-box-shadow: 0 1px 3px #B1AA9F;
+	
+}
+#wp-pos-breadcrumbs {
+	background: url(images/bg-white-gradient.png) left bottom repeat-x;
+}
+#wp-usermodules1 div.wp-modulecontainer,
+#wp-usermodules2 div.wp-modulecontainer,
+#wp-pos-user-top,
+#wp-pos-user-bottom {
+	background: #FFF url(images/bg-white-gradient.png) left bottom repeat-x;
+}
+#wp-pos-banner {
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+#wp-gotop {
+	background: url(../images/dot.png) left top repeat-x;
+	text-align: center;
+	padding: 10px;
+}
+a#wp-gotoplink {
+	font-size: 11px;
+	color: #595959;
+}
+a#wp-gotoplink span {
+	background: url(images/icons-base.png) no-repeat 0 -258px;
+	padding-left: 18px;
+}
+/* =============== LAYOUT - CONTENT BOTTOM AREA =============== */
+#wp-content-bottom {
+	margin-top: 20px !important;
+	padding: 5px 0 10px 0;
+	text-align: center;
+	width: 980px;
+margin: 0 auto;
+-moz-box-shadow: 2px 2px 4px #ccc;
+-webkit-box-shadow: 2px 2px 4px #ccc;
+box-shadow: 2px 2px 4px #ccc;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+  height: 26px; 
+	
+    background: url(images/mainmenu.png) left bottom repeat-x;
+}
+/* =============== LAYOUT - FOOTER AREA =============== */
+#wp-footer {
+	color: #787878;
+	
+}
+#wp-footer a {
+	color: #787878;
+	text-decoration: none;
+}
+#wp-footer .highlight {
+	color: #EB730A;
+}
+#wp-footer_inner {
+	background: url(images/bg-pattern1.png) left top repeat;
+	padding-bottom: 15px;
+}
+#wp-pos-bottom {
+	text-align: right;
+}
+#wp-footer.wp-positionscontainer2 div#wp-footerleft {
+	float: left;
+	width: 49.95%;
+}
+#wp-footer.wp-positionscontainer2 div#wp-footerright {
+	float: right;
+	width: 49.95%;
+}
+#wp-copyright {
+	text-align: center;
+	padding: 5px 0;
+}
+#wp-copyright a {
+	font-size: 0.8em;
+	color: #366999;
+}
+/* ============================== TYPOGRAPHY ============================== */
+/* =============== TYPOGRAPHY - GENERAL TYPOGRAPHY =============== */
+.hd {
+	display: none;
+}
+/* ----- PREDEFINED CONTENT ALIGN ----- */
+.align-left {
+	float: left;
+}
+.align-right {
+	float: right;
+}
+.margin-right {
+	margin-left: 0;
+	margin-right: 1em;
+}
+.margin-left {
+	margin-left: 1em;
+	margin-right: 0;
+}
+.align-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.content-center {
+	text-align: center;
+}
+/* =============== TYPOGRAPHY - CONTENT COLUMMNS =============== */
+div.grid-layout2 div.grid-col {
+	float: left;
+	width: 49.95%;
+}
+div.grid-layout3 div.grid-col {
+	float: left;
+	width: 33.3%;
+}
+div.grid-layout4 div.grid-col {
+	float: left;
+	width: 24.96%;
+}
+div.grid-layout5 div.grid-col {
+	float: left;
+	width: 19.98%;
+}
+div.grid-layout6 div.grid-col {
+	float: left;
+	width: 16.65%;
+}
+div.grid-layout div.grid-col div.grid-col_inner {
+	margin-right: 2%;
+}
+div.grid-layout div.grid-lastcol div.grid-col_inner {
+	margin-right: 0;
+}
+/* =============== TYPOGRAPHY - LINK STYLES =============== */
+/* ----- ICON LINK ----- */
+.link-icon {
+	display: inline-block;
+	padding-left: 22px;
+}
+/* ----- ACTION LINK ----- */
+.link-action {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.link-action:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+/* ----- HIGHLIGHT LINK ----- */
+.link-highlight {
+	color: #595959;
+	font-weight: bold;
+	display: block;
+	padding: 5px;
+	border: 1px solid transparent;
+}
+.link-highlight:hover {
+	background-color: #f2f2f2;
+	border-color: #d9d9d9;
+	color: #000;
+	text-decoration: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0px 0px 2px #999999;
+	-moz-box-shadow: 0px 0px 2px #999999;
+	-webkit-box-shadow: 0px 0px 2px #999999;
+	
+}
+/* ----- TOOLTIPS LINK ----- */
+a.link-tooltip {
+	position: relative;
+}
+a.link-tooltip:hover {
+	z-index: 25;
+}
+a.link-tooltip span {
+	display: none;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+a.link-tooltip:hover span {
+	display: block;
+}
+/* =============== TYPOGRAPHY - LIST STYLES =============== */
+/* ----- HORIZONTAL LIST ----- */
+ul.list-horizontal {
+	margin: 0;
+	list-style: none;
+}
+ul.list-horizontal li {
+	display: inline;
+	margin: 0 .5em;
+}
+/* ----- NOBULLET LIST ----- */
+ul.list-nobullet {
+	margin: 0;
+	list-style: none;
+}
+ul.list-nobullet li {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+}
+/* =============== TYPOGRAPHY - IMAGES STYLES =============== */
+img.image-left {
+	float: left;
+	margin: 0.5em 1em 0.5em 0;
+}
+img.image-right {
+	float: right;
+	margin: 0.5em 0.5em 0.5em 1em;
+}
+img.image-border {
+	border: 1px solid #e5e5e5;
+	padding: 3px;
+}
+img.image-margin {
+	margin: .5em;
+}
+/* ============================== MENU ============================== */
+/* =============== MENU - GENERAL =============== */
+span.wp-menudescription {
+	font-weight: normal;
+	font-size: 0.9em;
+}
+/* =============== MENU - MAIN MENU =============== */
+/* ----- GENERAL ----- */
+ul.menu-mainmenu {
+	margin: 0;
+	padding: 0;
+}
+ul.menu-mainmenu li {
+	margin: 0;
+	margin-top: -2px;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	border-left: 1px solid #E06D02;
+}
+ul.menu-mainmenu li.last {
+	border-right: 1px solid #FFB25F;
+}
+ul.menu-mainmenu li a {
+	display: block;
+	color: #FFF;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 9px 1em;
+	font-weight: bold;
+	text-decoration: none;
+	border-left: 1px solid #FFB25F;
+	text-shadow: 1px 1px 1px #B25C07;
+	
+}
+ul.menu-mainmenu li.last a {
+	border-right: 1px solid #E06D02;
+}
+ul.menu-mainmenu li a span {
+	display: block;
+	line-height: 16px;
+}
+/* ----- 1st LEVEL ----- */
+div.wp-modulecontainer ul.menu-mainmenu ul {
+	margin: 0;
+	left: -999em;
+	position: absolute;
+	padding: 5px 0 10px 0;
+	background-color: #FFF;
+	box-shadow: 0 1px 3px #B1AA9F;
+	-moz-box-shadow: 0 1px 3px #B1AA9F;
+	-webkit-box-shadow: 0 1px 3px #B1AA9F;
+	
+}
+div.wp-modulecontainer ul.menu-mainmenu ul li {
+	padding: 0 10px;
+	width: 180px;
+	border: none;
+	position: relative;
+}
+div.wp-modulecontainer ul.menu-mainmenu ul li a {
+	color: #666;
+	border: none;
+	display: block;
+	font-size: 0.9em;
+	padding-left: 0;
+	padding-right: 0;
+	text-shadow: none;
+	background: url(images/bg-white-gradient.png) left bottom repeat-x;
+}
+div.wp-modulecontainer ul.menu-mainmenu li.active ul a {
+	background: url(images/bg-white-gradient.png) left bottom repeat-x;
+}
+div.wp-modulecontainer ul.menu-mainmenu ul li a span {
+    background: url(images/icons-16.png) 3px -131px no-repeat;
+    display: block;
+    padding-left: 24px;
+}
+div.wp-modulecontainer ul.menu-mainmenu ul ul {
+	top: 0;
+}
+/* ----- PARENT ITEMS / ADD ARROW TO ITEMS HAVE SUBLEVEL ----- */
+div.wp-modulecontainer ul.menu-mainmenu li.parent li.parent a,
+div.wp-modulecontainer ul.menu-mainmenu li.parent li.parent li.parent a,
+div.wp-modulecontainer ul.menu-mainmenu li.parent li.parent li.parent li.parent a {
+	background: url(images/icons-arrow.png) no-repeat right -338px;
+	padding-right: 16px;
+}
+/* ----- CLEAR PARENT ITEMS / REMOVE ARROW FROM ITEMS DON'T HAVE SUBLEVEL ----- */
+div.wp-modulecontainer ul.menu-mainmenu li.parent li.parent ul a,
+div.wp-modulecontainer ul.menu-mainmenu li.parent li.parent li.parent ul a,
+div.wp-modulecontainer ul.menu-mainmenu li.parent li.parent li.parent li.parent ul a {
+	background: none;
+	padding-right: 10px;
+}
+/* ----- ACTIVE STATE ----- */
+div.wp-modulecontainer ul.menu-mainmenu li.active li.active a,
+div.wp-modulecontainer ul.menu-mainmenu li.active li.active li.active a,
+div.wp-modulecontainer ul.menu-mainmenu li.active li.active li.active li.active a {
+	color: #FFF;
+	font-size: 14px;
+	text-shadow: 1px 1px 1px #B25C07;
+	
+}
+/* ----- CLEAR ACTIVE STATE / MAKE NON-ACTIVE ITEM NORMAL ----- */
+div.wp-modulecontainer ul.menu-mainmenu li.active li.active ul a,
+div.wp-modulecontainer ul.menu-mainmenu li.active li.active li.active ul a,
+div.wp-modulecontainer ul.menu-mainmenu li.active li.active li.active li.active ul a {
+	color: #666;
+	font-size: 12px;
+	text-shadow: none;
+	background-color: transparent;
+}
+/* ----- ROLLOVER STATE / DISPLAY SUB-MENU OF SELECTED MENU ITEM ----- */
+div.wp-modulecontainer ul.menu-mainmenu li:hover ul,
+div.wp-modulecontainer ul.menu-mainmenu li li:hover ul,
+div.wp-modulecontainer ul.menu-mainmenu li li li:hover ul,
+div.wp-modulecontainer ul.menu-mainmenu li li li li:hover ul,
+div.wp-modulecontainer ul.menu-mainmenu li.sfhover ul,
+div.wp-modulecontainer ul.menu-mainmenu li.sfhover li.sfhover ul,
+div.wp-modulecontainer ul.menu-mainmenu li.sfhover li.sfhover li.sfhover ul,
+div.wp-modulecontainer ul.menu-mainmenu li.sfhover li.sfhover li.sfhover li.sfhover ul {
+	left: auto;
+	right: auto;
+}
+/* ----- CLEAR ROLLOVER STATE / HIDE SUB-MENU OF NON-SELECTED MENU ITEM ----- */
+div.wp-modulecontainer ul.menu-mainmenu li:hover ul ul,
+div.wp-modulecontainer ul.menu-mainmenu li li:hover ul ul,
+div.wp-modulecontainer ul.menu-mainmenu li li li:hover ul ul,
+div.wp-modulecontainer ul.menu-mainmenu li li li li:hover ul ul,
+div.wp-modulecontainer ul.menu-mainmenu li.sfhover ul ul,
+div.wp-modulecontainer ul.menu-mainmenu li.sfhover li.sfhover ul ul,
+div.wp-modulecontainer ul.menu-mainmenu li.sfhover li.sfhover li.sfhover ul ul,
+div.wp-modulecontainer ul.menu-mainmenu li.sfhover li.sfhover li.sfhover li.sfhover ul ul {
+	left: -999em;
+}
+div.wp-modulecontainer ul.menu-mainmenu,
+div.wp-modulecontainer ul.menu-mainmenu li li {
+	clear: both;
+}
+/* =============== MENU - TREE MENU =============== */
+/* ----- GENERAL ----- */
+ul.menu-treemenu {
+	padding: 0 0 5px 0;
+	margin: 0;
+}
+ul.menu-treemenu li {
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+}
+ul.menu-treemenu li a {
+	display: block;
+	color: #666;
+	margin: 0 10px;
+	padding: 8px 0;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+	background: #FFF url(images/bg-white-gradient.png) left bottom repeat-x;
+}
+ul.menu-treemenu li a.current,
+ul.menu-treemenu li a:hover {
+	color: #D63330;
+}
+ul.menu-treemenu li a span {
+	display: block;
+	background: url(images/icons-16.png) 3px -131px no-repeat;
+	padding-left: 24px;
+}
+/* ---------- 1st LEVEL ---------- */
+ul.menu-treemenu ul {
+	margin: 0;
+	padding: 0;
+}
+ul.menu-treemenu ul li {
+	float: none;
+	width: auto;
+}
+ul.menu-treemenu ul li a {
+	font-weight: normal;
+	padding-left: 15px;
+}
+/* ----- ACTIVE STATE ----- */
+div.wp-modulecontainer ul.menu-treemenu li.active a {
+	font-weight: bold;
+}
+/* ----- CLEAR ACTIVE STATE ----- */
+div.wp-modulecontainer ul.menu-treemenu li.active ul a {
+	font-weight: normal;
+}
+/* =============== MENU - DIV MENU =============== */
+ul.menu-divmenu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+
+
+}
+ul.menu-divmenu li {
+	display: inline;
+	margin: 0;
+}
+ul.menu-divmenu li a:hover{
+
+}
+ul.menu-divmenu li a {
+	color: #FFF;
+	padding:5px;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 10px;
+	text-shadow: 1px 1px 1px #D67319;
+	
+}
+/* =============== MENU - TOP MENU =============== */
+ul.menu-topmenu {
+	margin: 5px 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+ul.menu-topmenu li {
+	display: inline-block;
+	margin: 0;
+	padding: 0 5px;
+}
+ul.menu-topmenu li a {
+	color: #666;
+	padding: 0;
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 20px;
+	background: url(images/icons-16.png) 0 0 no-repeat;
+}
+ul.menu-topmenu li.order2 a {
+	background-position: 0 -66px;
+}
+/* ============================== FONT STYLES ============================== */
+/* =============== FONT STYLES - SPECIAL FONT ADJUSTMENTS =============== */
+/* ----- BUSINESS TEXT ----- */
+#wp-master.wp-textstyle-business.wp-specialfont .wp-moduletitle {
+	font-size: 1.1em;
+}
+#wp-master.wp-textstyle-business.wp-specialfont ul.menu-mainmenu li {
+	font-size: 1em;
+}
+#wp-master.wp-textstyle-business.wp-specialfont .contentheading,
+#wp-master.wp-textstyle-business.wp-specialfont .componentheading,
+#wp-master.wp-textstyle-business.wp-specialfont .subheading {
+	font-weight: bold;
+}
+/* ----- PERSONAL TEXT ----- */
+#wp-master.wp-textstyle-personal.wp-specialfont .wp-moduletitle {
+	font-size: 1.3em;
+	font-weight: normal;
+}
+#wp-master.wp-textstyle-personal.wp-specialfont ul.menu-mainmenu li a span {
+	font-size: 1.15em;
+	font-weight: normal;
+}
+#wp-master.wp-textstyle-personal.wp-specialfont .contentheading,
+#wp-master.wp-textstyle-personal.wp-specialfont .componentheading,
+#wp-master.wp-textstyle-personal.wp-specialfont .subheading {
+	font-size:1.6em;
+}
+#wp-master.wp-textstyle-personal.wp-specialfont h1 {
+	font-size: 1.6em;
+}
+#wp-master.wp-textstyle-personal.wp-specialfont h2 {
+	font-size: 1.5em;
+}
+#wp-master.wp-textstyle-personal.wp-specialfont h3 {
+	font-size: 1.4em;
+}
+#wp-master.wp-textstyle-personal.wp-specialfont h4 {
+	font-size: 1.3em;
+}
+#wp-master.wp-textstyle-personal.wp-specialfont h5,
+#wp-master.wp-textstyle-personal.wp-specialfont h6 {
+	font-size: 1.2em;
+}
+#wp-master.wp-textstyle-personal.wp-specialfont h1,
+#wp-master.wp-textstyle-personal.wp-specialfont h2,
+#wp-master.wp-textstyle-personal.wp-specialfont h3,
+#wp-master.wp-textstyle-personal.wp-specialfont h4,
+#wp-master.wp-textstyle-personal.wp-specialfont h5,
+#wp-master.wp-textstyle-personal.wp-specialfont h6 {
+	font-weight: normal;
+}
+/* ----- NEWS TEXT ----- */
+#wp-master.wp-textstyle-news.wp-specialfont .wp-moduletitle {
+	font-size: 1.05em;
+}
+#wp-master.wp-textstyle-news.wp-specialfont ul.menu-mainmenu li {
+	font-size: 1em;
+	font-weight: normal;
+}
+#wp-master.wp-textstyle-news.wp-specialfont .contentheading,
+#wp-master.wp-textstyle-news.wp-specialfont .componentheading,
+#wp-master.wp-textstyle-news.wp-specialfont .subheading {
+	font-weight: bold;
+}
+/* =============== FONT STYLES - CSS3 DROP SHADOW EFFECT =============== */
+#wp-master.wp-css3 h3.wp-moduletitle,
+#wp-master.wp-css3 .contentheading {
+	text-shadow: 1px 1px 1px #CCC;
+}
+#wp-master.wp-css3 ul.menu-mainmenu li.active a,
+#wp-master.wp-css3 div.box-grey h3.wp-moduletitle {
+	text-shadow: 1px 1px 1px #000;
+}
+#wp-master.wp-css3 ul.menu-mainmenu li.active ul a {
+	text-shadow: none;
+}
+/* ============================== MODULE STYLES ============================== */
+h3.wp-moduletitle {
+	margin: 0;
+	color: #FFF;
+	font-size: 14px;
+}
+h3.wp-moduletitle span {
+	display: block;
+}
+/* =============== MODULE STYLES - MODULE BOXES =============== */
+div[class*=box-].wp-modulecontainer {
+	padding: 15px 0 5px 0;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 1px 3px #B1AA9F;
+	-moz-box-shadow: 0 1px 3px #B1AA9F;
+	-webkit-box-shadow: 0 1px 3px #B1AA9F;
+	
+}
+div[class*=box-].wp-modulecontainer .wp-moduletitle {
+	padding: 4px 4px 4px 4px;
+}
+div[class*=box-].wp-modulecontainer .wp-modulecontent {
+	padding: 5px 10px;
+}
+div.special-menu.wp-modulecontainer .wp-modulecontent {
+	padding: 5px 0;
+}
+/* =============== BOX COLORS =============== */
+div.box-white.wp-modulecontainer .wp-moduletitle {
+	color: #666;
+	padding-top: 0;
+	background: #FFF url(images/bg-white-gradient.png) left bottom repeat-x;
+}
+div.box-cyan.wp-modulecontainer .wp-moduletitle {
+	border: 1px solid #46A9B3;
+	background: url(images/bg-box-cyan.png) left bottom repeat-x;
+	text-shadow: 1px 1px 1px #3C7A81;
+	
+}
+div.box-orange.wp-modulecontainer .wp-moduletitle {
+	border: 1px solid #E77B14;
+	background: url(images/bg-box-orange.png) left bottom repeat-x;
+	text-shadow: 1px 1px 1px #B25C07;
+	
+}
+div.box-green.wp-modulecontainer .wp-moduletitle {
+	border: 1px solid #7D9A23;
+	background: url(images/bg-box-green.png) left bottom repeat-x;
+	text-shadow: 1px 1px 1px #546918;
+	
+}
+div.box-grey.wp-modulecontainer .wp-moduletitle {
+	border: 1px solid #8F8F8F;
+	background: url(images/bg-box-grey.png) left bottom repeat-x;
+	text-shadow: 1px 1px 1px #666;
+	
+}
+/* ============================== JOOMLA! DEFAULT EXTENSIONS ============================== */
+/* =============== JOOMLA! EXTENSIONS - GENERAL =============== */
+/* ----- HEADING ----- */
+.contentheading,
+.componentheading,
+.subheading {
+	color: #D63330;
+	font-size: 24px;
+	margin-top: 0;
+}
+table.contentpaneopen {
+	width: 100%;
+}
+/* ----- FORM ----- */
+.wp-formbuttons {
+	text-align: center;
+	padding-top: .45em;
+}
+table.paramlist td {
+	padding: .3em;
+}
+table.paramlist td.paramlist_key {
+	width: 150px;
+}
+/* ----- TOOLTIPS ----- */
+.tool-tip {
+	float: left;
+	background: #ffc;
+	border: 1px solid #D4D5AA;
+	padding: 5px;
+	max-width: 200px;
+}
+.tool-title {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: -15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: url(../../system/images/selector-arrow.png) no-repeat;
+}
+.tool-text {
+	font-size: 100%;
+	margin: 0;
+}
+/* ----- POP-UP / PRINT WINDOWS ----- */
+body.contentpane {
+	color: #000000;
+	background: #FFFFFF;
+}
+body.contentpane div.com-content {
+	padding: 1em;
+}
+/* =============== JOOMLA! EXTENSIONS - COM_CONTENT =============== */
+div.xmap,
+div.article,
+div.wp-article {
+	padding: 20px;
+}
+/* ----- ARTICLE METADATA ----- */
+.wp-article-metadata {
+	margin: 0.3em 0;
+}
+/* ----- ARTICLE TOOLBAR ----- */
+.wp-article-toolbar {
+	margin-bottom: .6em;
+	background-color: #f4f4f4;
+	position: relative;
+	min-height: 28px;
+}
+.wp-article-toolbar dl {
+	padding: 5px;
+}
+#article-index {
+    background-color: #F2F2F2;
+    border: 1px solid #D9D9D9;
+    float: right;
+    margin: 0 0 1em 1em;
+}
+#article-index ul {
+	margin: 0;
+	list-style-type: none;
+}
+#article-index ul li {
+	margin: 0;
+	padding: 0.25em 0.6em;
+}
+/* ----- ARTICLE INFO ----- */
+.wp-article-info {
+	padding: 0.3em 0.6em;
+}
+.author,
+.createdate,
+.publishdate,
+.hits {
+	margin: 5px 0;
+	color: #595959;
+	font-size: 0.9em;
+}
+.modifydate {
+	margin: 1em 0;
+	text-align: right;
+	color: #999999;
+	font-style: italic;
+}
+/* ----- 2 BUTTON PRINT, EMAIL CONTAINER ----- */
+ul.wp-article-tools {
+	float: right;
+	margin: 0;
+	padding: 6px;
+	list-style: none;
+}
+ul.wp-article-tools li {
+	margin: 0 0 0 10px;
+	float: left;
+}
+ul.wp-article-tools li a {
+	float: left;
+	display: block;
+	height: 16px;
+	width: 16px;
+	background: url(images/icons-base.png) left top no-repeat;
+}
+ul.wp-article-tools li.wp-article-icon-edit a {
+	background: none;
+}
+ul.wp-article-tools li a.wp-article-print-button {
+	background-position: 0 -430px;
+}
+ul.wp-article-tools li a.wp-article-email-button {
+	background-position: 0 -516px;
+}
+ul.wp-article-tools li a:hover {
+	text-decoration: none;
+}
+.wp-article-submit {
+	margin-top: 0.8em;
+}
+.item-title-entry .icon-edit {
+	display: inline-block;
+}
+/* ----- SUBMIT AN ARTICLE ----- */
+.field-title {
+	width: 120px;
+	float: left;
+}
+.formelm, .formelm-area {
+	margin: 5px 0;
+	clear: both;
+}
+/* ----- READ MORE ----- */
+a.readon {
+	padding: 3px 6px;
+	color: #404040;
+	border: 1px solid #e5e5e5;
+	background: #F4F4F4;
+}
+a.readon:hover {
+	background-color: #e5e5e5;
+	text-decoration: none;
+}
+/* ----- TABLE OF CONTENT ----- */
+table.contenttoc {
+	margin: 0 0 1em 1em;
+	border: 1px solid #D9D9D9;
+	background: #f2f2f2;
+	float: right;
+}
+table.contenttoc th {
+	padding: .4em;
+	background: url(../images/dot.png) bottom repeat-x;
+	font-weight: bold;
+	text-align: center;
+}
+table.contenttoc td {
+	padding: .25em .6em;
+}
+/* PAGE LINK IN TOC */
+a.toclink {
+	font-size: .9em;
+}
+/* PAGE NUMBER SHOWING "PAGE 1 OF ..." UNDER TOC */
+div.pagenavcounter {
+	color: #595959;
+	margin: .5em 0;
+	font-size: .9em;
+	font-weight: bold;
+}
+/* PAGE NAVIGATION */
+div.pagenavbar div {
+	color: #999999;
+	font-weight: bold;
+	font-size: .9em;
+}
+/* ----- SECTION / CATEGORY BLOG LAYOUT ----- */
+/* SEPARATOR BETWEEN ARTICLES */
+span.article_separator {
+	display: block;
+	height: 0.5em;
+}
+/* ARTICLE COLUMN CONTAINER */
+.wp-articlecols {
+	float: left;
+}
+.wp-articlecols .wp-article {
+	padding: 0 5px;
+}
+/* "MORE ARTICLES..." PANEL HEADING TEXT */
+div.blog_more {
+	background-color: #F4F4F4;
+	border: 1px solid #e5e5e5;
+	padding: 0.2em 1em;
+	margin: 0 0 1em 0;
+}
+/* PAGE PAGINATION */
+ul.pagenav,
+div.pagination ul {
+	list-style-type: none;
+}
+ul.pagenav {
+	text-align: center;
+}
+ul.pagenav li,
+div.pagination ul li {
+	color: #999;
+	margin: 0;
+	display: inline;
+	font-weight: bold;
+}
+div.pagination ul li {
+	font-size: 0.9em;
+}
+ul.pagenav li a,
+div.pagination ul li a {
+	margin: 0 15px;
+}
+ul.wp-pagination {
+	list-style-type: none;
+	text-transform: uppercase;
+}
+ul.wp-pagination li {
+	display: inline;
+	margin: 0;
+}
+ul.wp-pagination li a,
+ul.wp-pagination li span {
+	font-weight: bold;
+	padding: 3px 8px;
+	border: 1px solid #CCC;
+	background-color: #EAEAEA;
+	color: #999;
+}
+ul.wp-pagination li a:hover {
+	color: #000;
+	text-decoration: none;
+}
+ul.wp-pagination li.navigation-page span {
+	border: none;
+	padding: 4px 9px;
+	color: #fff;
+}
+ul.wp-pagination,
+p.wp-pageinfo {
+	text-align: center;
+	margin: 10px 0 0 0;
+	font-size: 0.9em;
+}
+/* BLOG PAGES NAV LINK */
+a.pagenav {
+	text-transform: uppercase;
+}
+/* ----- CATEGORY LIST LAYOUT ----- */
+/* DESCRIPTION IN CONTENT TABLE AND COMPONENT PAGE */
+.contentdescription {
+	padding: .5em 0;
+}
+/* ----- SECTION LAYOUT ----- */
+/* LINKS IN SECTION TABLE PAGE */
+a.category {
+	font-weight: bold;
+}
+/* =============== JOOMLA! EXTENSIONS - COM_CONTACT =============== */
+div.contact-email div {
+	margin: 10px 0;
+}
+div.contact-email div div {
+	margin: 0;
+}
+/* ----- STANDARD CONTACT LAYOUT - CONTACT FORM INPUT BOXES ----- */
+input#contact_name,
+input#contact_email,
+input#contact_subject,
+#contact_text {
+	display: block;
+}
+/* ----- STANDARD CONTACT LAYOUT ----- */
+.com-contact #contact-slider h3.title {
+	padding: 5px;
+	margin: 5px 0;
+	border: 1px solid #CCC;
+	background-color: #F4F4F4;
+}
+.com-contact #contact-slider h3.title a {
+	color: #999;
+	font-size: 12px;
+	text-decoration: none;
+}
+.com-contact #contact-slider h3.pane-toggler-down a {
+	color: #000;
+}
+.com-contact #contact-slider .pane-slider {
+	padding: 0 10px;
+}
+.contact-form #contact-form fieldset {
+	padding: 0 10px;
+}
+.contact-form #contact-form dt {
+	margin: 10px 0 5px 0;
+}
+.contact-form #contact-form dd {
+	margin-left: 0;
+}
+.contact-address .jicons-icons {
+	float: left;
+}
+.contact-address .address span  {
+	display: block;
+	padding: 0 0 2px 22px;
+}
+/* ----- STANDARD CONTACT LAYOUT - CONTACT FORM INPUT BOXES ----- */
+.form-required {
+	color: #EF593B;
+	font-weight: bold;
+	text-align: right;
+}
+input#contact-formname,
+input#contact-email,
+input#contact-subject,
+#contact-text {
+	display: block;
+}
+/* =============== JOOMLA! EXTENSIONS - MOD_BREADCRUMB =============== */
+span.breadcrumbs {
+	font-size: 1em;
+	display: block;
+	font-weight: bold;
+	padding: 10px 0 12px 20px;
+	
+}
+span.breadcrumbs a,
+span.breadcrumbs span {
+	color: #848484;
+	text-decoration: none;
+	padding: 12px 12px 12px 33px;
+	background: url(images/icon-pathway-arrow.png) left center no-repeat;
+}
+span.breadcrumbs a:hover {
+	text-decoration: underline;
+}
+span.breadcrumbs span.current {
+	color: #D63330;
+}
+/* =============== MODULE LIVE CHAT STYLES =============== */
+#live-chat {
+	padding-top: 5px;
+}
+#live-chat a {
+	color: #666;
+	margin: 5px;
+	padding: 2px 0 2px 28px;
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+}
+#live-chat a.skype-chat {
+	background: url(images/icon-skype.png) left center no-repeat;
+}
+#live-chat a.yahoo-chat {
+	background: url(images/icon-yahoo.png) left center no-repeat;
+}
+#live-chat a.online {
+	color: #D63330;
+}
+/* =============== MODULE SUBSCRIBE STYLES =============== */
+div.modns form {
+	margin: 0;
+}
+div.modns input {
+	width: 171px;
+}
+div.modns button {
+	border: none;
+	cursor: pointer;
+	width: 66px;
+	height: 29px;
+	padding: 0;
+	margin-top: 5px;
+	background: url(images/icon-subscribe-button.png) 0 -29px no-repeat;
+}
+div.modns button:hover {
+	background-position: 0 0;
+}
+/* =============== FRONT PAGE PRODUCTS STYLES =============== */
+div.product-listing-container div.wp-modulecontainer_inner {
+	padding: 0;
+}
+div.product-listing-container h3.wp-moduletitle, #details-fullinfo_inner h3.wp-moduletitle {
+	font-size: 16px;
+	background: url(images/bg-featured-module.png) left center no-repeat;
+	padding: 15px 0;
+	position: relative;
+	right: 5px;
+	text-shadow: 1px 1px 1px #B25C07;
+	
+}
+div.product-listing-container h3.wp-moduletitle span, #details-fullinfo_inner h3.wp-moduletitle span {
+	margin-left: 20px;
+}
+div.product-listing-container-selection {
+	margin-right: 20px;
+	margin: -41px 10px 15px 0;
+	position: relative;
+	border-right: 1px solid #FFB25F;
+}
+div.product-listing-container-selection ul {
+	border-right: 1px solid #E06D02;
+}
+div.product-listing-container-selection ul li {
+	border-left: 1px solid #E06D02;
+}
+div.product-listing-container-selection ul li a {
+	border-left: 1px solid #FFB25F;
+	text-shadow: 1px 1px 1px #B25C07;
+	
+}
+div.product-listing-container-selection ul li.item-1 span {
+
+}
+div.product-listing-container-selection ul li.item-2 span {
+	
+}
+div.product-listing-container-selection ul li.item-3 span {
+	
+}
+div.product-listing-container-selection a.dm_selected {
+	background: url(images/bg-mainmenu-active.png);
+}
+div.product-listing-container .product-thumbnail {
+	width: 173px;
+	height: 228px;
+	padding: 5px;
+	border: 1px solid #CCC;
+	text-align: center;
+}
+div.product-listing-container .product-thumbnail img {
+	max-height: 228px;
+	max-width: 173px;
+}
+div.product-listing-container .product-title {
+	margin-top: 5px;
+}
+div.product-listing-container .product-title a {
+	color: #666;
+	font-weight: bold;
+	text-decoration: none;
+}
+.product-price .productPrice {
+	font-size: 14px;
+	color: #D63330;
+	font-weight: bold;
+}
+.product-buy-button {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.product-buy-button .addtocart_button_module {
+	border: none;
+	width: 114px;
+	height: 30px;
+	font-size: 0;
+	cursor: pointer;
+	color: transparent;
+	background: url(images/icon-buy.png) left center no-repeat;
+}
+.product-buy-button .addtocart_button_module:hover {
+	background: url(images/icon-buy-hover.png) left center no-repeat;
+}
+#shop-content #category-child-list {
+	
+	margin-bottom: 10px;
+	background: #FFFFFF url(images/bg-white-gradient.png) left bottom repeat-x;
+}
+#shop-content #category-child-list a {
+	font-size: 14px;
+	color: #D63330;
+	font-weight: bold;
+}
+#shop-content #category-child-list a:hover {
+	color: #41A1AA;
+	text-decoration: underline;
+}
+#shop-content #product-sort-nav {
+	padding: 2px 1.2em 14px 1.2em !important;
+	background: #FFFFFF url(images/bg-white-gradient.png) left bottom repeat-x;
+}
+#shop-content #product-sort-nav select {
+	width: 180px;
+    background: url(images/bg-input.png) repeat-x left bottom #FFFFFF;
+    border: 1px solid #B3B3B3;
+    color: #666666;
+    padding: 3px;
+}
+#shop-content #product_list {
+    background: #FFF url(images/bg-white-gradient.png) left bottom repeat-x;
+}
+#product-details #details-title {
+	font-size: 24px;
+	color: #D63330;
+	padding: 10px 0;
+	margin: 0 15px 20px 15px;
+	background: url(images/icon-separator.png) left bottom repeat-x;
+}
+#product-details #product-details-fullinfo {
+	padding: 0 15px;
+	position: relative;
+}
+#product-details-fullinfo #details-fullinfo-thumbnail {
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin-top: 10px;
+}
+#product-details #details-fullinfo_inner {
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	background: #FFFFFF url(images/bg-white-gradient.png) left bottom repeat-x;
+}
+#product-details #details-description {
+	float: left;
+	width: 70%;
+}
+#product-details #details-description table.table-fullinfo td {
+	padding: 5px 0;
+	font-weight: bold;
+	border-bottom: 1px solid #E0E0E0;
+}
+#product-details #details-description table.table-fullinfo td span {
+	padding-left: 20px;
+	background: url(images/icons-16.png) 0 -197px no-repeat;
+}
+#product-details #details-description table.table-fullinfo td.table-description {
+	color: #333;
+}
+#product-details #details-description table.table-fullinfo td.table-description span {
+	padding: 0;
+	background: none;
+}
+#product-details #details-description #details-fullinfo {
+	left: 0;
+	width: 100%;
+	margin-top: 50px;
+	position: absolute;
+}
+.content-block-orange {
+	padding-bottom: 3px;
+	background: url(images/bg-moduleheading.png) left bottom repeat-x;
+}
+.content-block-orange span {
+    color: #FFFFFF;
+    font-size: 14px;
+	margin: 20px 0 0 20px;
+	display: inline-block;
+	padding: 5px 15px;
+	border: 1px solid #E77B14
+	border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+    text-shadow: 1px 1px 1px #B25C07;
+    background: url(images/bg-box-orange.png) left bottom;
+	
+}
+#product-details .product-buy-button {
+	width: 350px;
+	margin: 20px auto 0 auto;
+	text-align: right;
+}
+#product-details .product-buy-button .addtocart_button_module {
+	width: 206px;
+	height: 34px;
+	background: url(images/icon-add-to-cart.png) left center no-repeat;
+}
+#product-details .product-buy-button .addtocart_button_module:hover {
+	background: url(images/icon-add-to-cart-hover.png) left center no-repeat;
+}
+#product-details-comments #comments-form {
+	margin: 0;
+	padding: 0 20px 10px 20px;
+}
+/* =============== MODULE ICONS =============== */
+div[class*="icon-24"] h3.wp-moduletitle span.wp-moduleicon {
+	line-height: 32px;
+	padding-left: 32px;
+	background: url(images/icons-24.png) 0 0 no-repeat;
+}
+div.icon-24-brush h3.wp-moduletitle span.wp-moduleicon {
+	background: url(images/female.png) 0 0 no-repeat;
+}
+div.icon-24-container h3.wp-moduletitle span.wp-moduleicon {
+	background-position: 0 -148px;
+}
+div.icon-24-tape h3.wp-moduletitle span.wp-moduleicon {
+	background-position: 0 -222px;
+}
+div.icon-24-comment h3.wp-moduletitle span.wp-moduleicon {
+	background: url(images/present.png) 0 0 no-repeat;
+	padding-left: 35px;
+}
+div.icon-24-disc h3.wp-moduletitle span.wp-moduleicon {
+	background: url(images/male.png) 0 0 no-repeat;
+	padding-left: 35px;
+}
+div.icon-24-edit h3.wp-moduletitle span.wp-moduleicon {
+	background-position: 0 -370px;
+}
+div.icon-24-statistics h3.wp-moduletitle span.wp-moduleicon {
+	background-position: 0 -444px;
+}
+div.icon-24-lock h3.wp-moduletitle span.wp-moduleicon {
+	background-position: 0 -518px;
+}
+div.icon-24-fb h3.wp-moduletitle span.wp-moduleicon {
+	background-position: 0 -592px;
+}
+div.icon-24-chain h3.wp-moduletitle span.wp-moduleicon {
+	background-position: 0 -666px;
+}
+div.icon-24-tag h3.wp-moduletitle span.wp-moduleicon {
+	background-position: 0 -740px;
+}
+div.icon-24-megaphone h3.wp-moduletitle span.wp-moduleicon {
+	background-position: 0 -814px;
+}
+/* =============== CHECK OUT PAGE =============== */
+#product-checkout-page {
+    background: #FFF url(images/bg-white-gradient.png) left bottom repeat-x;
+}
+#product-checkout-page_inner {
+	padding: 20px;
+}
+.table-product-checkout a {
+	color: #D63330;
+}
+.table-product-checkout td {
+	padding: 5px 8px;
+	vertical-align: middle;
+	border-top: 1px solid #E0E0E0;
+}
+.table-product-checkout input.update-product-quantity,
+.table-product-checkout input.delete-product-order {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	font-size: 0;
+	margin: 5px 0 5px 5px;
+	color: transparent;
+	background: url(images/icons-16.png) 0 0 no-repeat;
+}
+.table-product-checkout input.update-product-quantity {
+	background-position: 0 -934px;
+}
+.table-product-checkout input.delete-product-order {
+	background-position: 0 -736px;
+}
+.table-product-cupon {
+	padding: 5px 10px;
+	border: 1px solid #E5E5E5;
+	background-color: #F6F6F6;
+}
+.table-product-cupon form {
+	margin: 5px 0;
+}
+.table-product-cupon input.button {
+	cursor: pointer;
+	width: 64px;
+	font-size: 0;
+	height: 27px;
+	color: transparent;
+	border: none;
+	bottom: 4px;
+	position: relative;
+	background: url(images/input-button.png) 0 -27px no-repeat;
+}
+.table-product-cupon input.button:hover {
+	background-position: 0 0;
+}
+#checkout-navigation a {
+	text-indent: -999px;
+	height: 36px;
+	color: transparent;
+	display: inline-block;
+	overflow: hidden;
+}
+#checkout-navigation {
+	padding: 20px;
+}
+#checkout-navigation .continue_link {
+	float: left;
+	width: 215px;
+	background: url(images/icon-shopping.png) 0 0 no-repeat;
+}
+#checkout-navigation .checkout_link {
+	float: right;
+	width: 155px;
+	background: url(images/icon-checkout.png) 0 0 no-repeat;
+}
+#checkout-navigation .continue_link:hover,
+#checkout-navigation .checkout_link:hover {
+	background-position: 0 -36px;
+}
+.shop_error,
+.shop_warning,
+.shop_info,
+.shop_debug,
+.shop_critical,
+.shop_tip {
+	margin: 10px 20px;
+	padding: 15px 0 15px 50px;
+	font-weight: bold;
+	border-top: 2px solid #DCDBB9;
+	border-bottom: 2px solid #DCDBB9;
+	background: #FAFAD2 url(images/icon-note.png) 10px center no-repeat;
+}
+/* =============== CUSTOMER LOGIN PAGE =============== */
+#customer-login-page h4 input {
+	float: left;
+	margin-right: 5px;
+}
+#customer-login-page h4 label {
+	font-size: 14px;
+	color: #D63330;
+	display: block;
+	padding-bottom: 10px;
+	margin-left: 22px;
+	background: url(images/icon-separator.png) left bottom repeat-x;
+}
+#login_stretcher form {
+	padding-bottom: 0 !important;
+}
+#login_stretcher label,
+#customer-login-form label {
+	display: inline-block;
+	width: 75px;
+}
+#login_stretcher a {
+	color: #999;
+	font-weight: bold;
+	text-decoration: none;
+}
+#login_stretcher a:hover {
+	color: #666;
+}
+#register_stretcher br {
+	display: none;
+}
+#register_stretcher #agreed_div {
+	margin: 0;
+	width: 43%;
+	text-align: left;
+}
+#register_stretcher #agreed_input {
+	margin: 0;
+	width: 56%;
+}
+#register_stretcher input.button,
+#register_stretcher button.register {
+	font-size: 0;
+	height: 29px;
+	width: 101px;
+	border: none;
+	cursor: pointer;
+	color: transparent;
+	background: url(images/icon-register.png) 0 -29px no-repeat;
+}
+#register_stretcher input.button:hover {
+	background-position: 0 0;
+}
+#customer-registration-form #company_div,
+#customer-registration-form #company_input,
+#customer-registration-form #title_div,
+#customer-registration-form #title_input,
+#customer-registration-form #middle_name_div,
+#customer-registration-form #middle_name_input,
+#customer-registration-form #address_2_div,
+#customer-registration-form #address_2_input,
+#customer-registration-form #phone_2_div,
+#customer-registration-form #phone_2_input,
+#customer-registration-form #fax_div,
+#customer-registration-form #fax_input {
+	display: none;
+}
+#customer-login-form,
+#customer-registration-form {
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	background: #FFFFFF url(images/bg-white-gradient.png) left bottom repeat-x;
+}
+#customer-registration-form fieldset {
+	border: none;
+}
+#customer-registration-form fieldset legend {
+	padding: 0;
+	color: #D63330;
+	font-size: 14px;
+	font-weight: bold;
+}
+#customer-registration-form select {
+    background: #FFFFFF url(images/bg-input.png) left bottom repeat-x;
+    border: 1px solid #B3B3B3;
+    color: #666666;
+    padding: 3px;
+}
+div.default-login {
+	padding: 1.2em 0;
+}
+div.default-login div.contentdescription {
+	display: none;
+}
+div.default-login #com-form-login {
+	padding: 0 1.2em;
+}
+div.default-login #com-form-login #customer-login-form label {
+	width: 100px;
+}
+div.default-login #com-form-login #customer-login-form a {
+    color: #999999;
+    font-weight: bold;
+    text-decoration: none;
+}
+div.default-login #com-form-login #customer-login-form a:hover {
+	color: #666;
+}
+div.default-login ul.wp-login-tools {
+	display: none;
+}
+div.default-login #com-form-login fieldset {
+	border: none;
+}
+div.com-user form.form-validate {
+	padding: 1.2em;
+}
+/* =============== CHECKOUT CONFIRMATION PAGE =============== */
+#checkout-confirmation-page {
+	padding: 10px 15px 20px 15px;
+}
+#checkout-confirmation-page input.checkout-button {
+    color: transparent;
+    display: inline-block;
+    height: 36px;
+	width: 155px;
+	border: none;
+	font-size: 0;
+	cursor: pointer;
+	background: url(images/icon-checkout.png) 0 -36px no-repeat;
+}
+#checkout-confirmation-page input.checkout-button:hover {
+	background-position: 0 0;
+}
+div.skipping-method {
+	display: none;
+}
+table.checkout-customer-info {
+	width: 50%;
+	padding: 5px;
+	margin: 10px auto 20px auto;
+	border: 1px solid #CCC;
+	background: #FFFFFF url(images/bg-input.png) left bottom repeat-x;
+}
+table.checkout-customer-info th,
+table.checkout-customer-info td {
+	padding: 5px;
+}
+#product-order-success {
+	padding: 10px 0;
+}
+/* =============== LOGIN FORM =============== */
+form#form-login fieldset {
+	margin: 0;
+	padding: 0 5px;
+	border: none;
+}
+form#form-login ul {
+	margin-top: 10px;
+	list-style-type: none;
+}
+form#form-login ul li {
+	margin-left: 6px;
+}
+form#form-login ul li a {
+	color: #666;
+}
+/* =============== JCOMMENT STYLES =============== */
+/* Comment */
+#comments .comment-box {
+	margin: 0;
+	padding: 0;
+	color: #999;
+}
+#comments .comment-avatar {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#comments .avatar-indent {
+	padding-left: 40px;
+}
+#comments .comment-anchor {
+	display: none;
+}
+#comments .comment-author,
+#comments .author-homepage {
+	color: #D63330;
+	font: bold 1em Verdana, Arial, Sans-Serif;
+	margin: 0;
+	padding: 0;
+}
+#comments .author-homepage {
+	text-decoration: none;
+	border-bottom: 1px dotted #3c452d;
+}
+#comments .comment-title {
+	color: #b01625;
+	font: bold 1em Verdana, Arial, Sans-Serif;
+	margin: 0;
+	padding: 0;
+}
+#comments p[id*="comment-toolbar-"] a {
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	display: inline-block;
+	background: url(images/icons-16.png) 0 0 no-repeat;
+}
+#comments p[id*="comment-toolbar-"] a.comment-button-edit {
+	background-position: 0 -660px;
+}
+#comments p[id*="comment-toolbar-"] a.comment-button-delete {
+	background-position: 0 -736px;
+}
+#comments p[id*="comment-toolbar-"] a.comment-button-publish {
+	background-position: 0 -802px;
+}
+#comments p[id*="comment-toolbar-"] a.comment-button-ip {
+	background-position: 0 -868px;
+}
+/* Avatar */
+#comments .comment-avatar img {
+	width: 32px;
+	border: none !important;
+}
+/* Date and Time*/	
+#comments .comment-date {
+	color: #999;
+	font-size: 11px;
+	line-height: 16px;
+	margin-left: 5px;
+	padding-left: 20px;
+	display: inline-block;
+	background: url(images/icons-16.png) 0 -462px no-repeat;
+}
+#comments .comment-body {
+	color: #777;
+	margin: 6px 0 0;
+	padding:0 0 2px;
+}
+/* Vote */
+#jc span.comments-vote {
+	float: right;
+}
+#jc span.comments-vote a {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin: 0 2px;
+	background: url(images/icons-16.png) 0 0 no-repeat;
+}
+#jc span.comments-vote .vote-none {
+	color: #666;
+	bottom: 2px;
+	margin-left: 7px;
+	position: relative;
+	font-weight: bold;
+}
+#jc span.comments-vote .vote-good {
+	background-position: 0 -528px;
+}
+#jc span.comments-vote .vote-poor {
+	background-position: 0 -594px;
+}
+div.wp-article-content {
+	padding-bottom: 15px;
+	background: #FFFFFF url(images/bg-white-gradient.png) left bottom repeat-x;
+}
+#shop-content {
+	padding-bottom: 10px;
+}
+#shop-content span.small {
+	margin-left: 1.2em;
+}
+
+#wp-pos-content-bottom ul.sub-menu{
+display:none;
+}
+
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - OVERALL PAGE =============== */
+#wp-master {
+	background-image: url(images/bg-master.png);
+}
+#wp-upper-decor {
+	
+}
+#wp-bottom-decor {
+	
+}
+/* =============== LAYOUT - MENU AREA =============== */
+#wp-menu {
+	background: url(images/bg-mainmenu.png) left top repeat-x;
+}
+/* ============================== TYPOGRAPHY ============================== */
+/* =============== TYPOGRAPHY - LINK STYLES =============== */
+/* ----- ACTION LINK ----- */
+.link-action:hover {
+	background-color: #009ACA;
+}
+/* ============================== MENU ============================== */
+/* =============== MENU - MAIN MENU =============== */
+/* ----- ACTIVE STATE ----- */
+div.wp-modulecontainer ul.menu-mainmenu li.active a {
+	background: url(images/bg-mainmenu-active.png);
+}
+div.wp-modulecontainer ul.menu-mainmenu ul li.active {
+	border: 1px solid #E77B14;
+	background: url(images/bg-box-orange.png) left bottom repeat-x;
+}
+div.wp-modulecontainer ul.menu-mainmenu ul li.active a {
+	background: none;
+}
+/* =============== MENU - TREE MENU =============== */
+div.wp-modulecontainer ul.menu-treemenu li a.current,
+div.wp-modulecontainer ul.menu-treemenu li.active a.current {
+	margin: 0;
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+    border: 1px solid #E77B14;
+	-webkit-text-shadow: 1px 1px 1px #B25C07;
+    background: url(images/bg-box-orange.png) repeat-x left bottom;
+	
+}
+ul.menu-treemenu li a.current span {
+	margin-left: 9px;
+}
+/* ============================== MODULE STYLES ============================== */
+/* =============== MODULE STYLES - MODULE BOXES =============== */
+/* ----- MODULE BOX GREY ----- */
+div.box-grey a {
+	color: #40afff;
+}
+ul.menu-divmenu li:hover {
+	background: url(images/mainmenu-hover.png) 0 0 repeat-x;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	text-decoration:none;
+	padding: 10px;
+}
+ul.menu-divmenu li {
+	
+	padding: 10px;
+}
+
+
+/* PAGE PAGINATION */
+ul.wp-pagination li.navigation-page span {
+	background-color: #4786BE;
+}
+
+.wp-pagenavi {
+padding-top: 25px;
+}
+
+#menu-item-46, .menu-item-46{
+text-indent:-9999px;
+width: 50px;
+background:url(images/homei.png) center center no-repeat;
+}
+#wp-logo img{
+	top: 22px;
+position: absolute;
+}
+
+a.homepage {
+position: absolute;
+left: 15px;
+width: 40px;
+padding: 0 !important;
+height: 30px;
+background: none !important;
+top: 5px;
+}
+a.homepage span{
+background: none;
+}
+#category-child-list ul li{
+float: left;
+width: 150px;
+list-style: none;
+
+}
+#category-child-list ul{
+display: table;
+
+}
+p.tags a{
+	color: #EB730A;
+}
+#details-fullinfo-thumbnail img{
+	border: 1px solid #CCC;
+padding: 2px;
+}
+.wp-pagenavi {
+clear: both;
+display: table;
+}
+.wp-pagenavi a:hover, .wp-pagenavi span.current{
+border: 1px solid #EB7E1C !important;
+background: #EB7E1C;
+}
+.wp-pagenavi a, .wp-pagenavi span{
+text-align: center;
+overflow: hidden;
+text-decoration: none;
+border: 1px solid #BFBFBF;
+padding: 3px 5px;
+margin: 2px;
+width: 29px;
+height: 33px;
+border-radius: 25px;
+display: inline-block;
+line-height: 33px;
+background: #3DA9C2;
+color: white;
+font-weight: bolder;
+float: left;
+text-shadow: 1px 1px 2px rgba(214, 115, 25, 0.65);
+-moz-border-radius: 25px;
+-webkit-border-radius: 25px;
+text-shadow: 1px 1px 2px rgba(51, 140, 162, 0.65);
+box-shadow: 4px 2px 3px rgba(178, 177, 163, 0.4);
+-moz-box-shadow: 4px 2px 3px rgba(178,177,163,0.4);
+-webkit-box-shadow: 4px 2px 3px rgba(178, 177, 163, 0.4);
+}
+#dm_tabs_1 ul.dm_menu_1 { width:auto; margin:0; padding:0; list-style:none; float:right; }
+#dm_tabs_1 ul.dm_menu_1 li.dm_menu_item_1 { display: inline; margin:0 0 0 0; padding:0; float:left; background:none; }
+#dm_tabs_1 ul.dm_menu_1 li.dm_menu_item_1 a { font:bold 14px Arial; float:left; color:#FFF; padding:5px 11px 5px 11px; text-decoration:none; }
+#dm_tabs_1 ul.dm_menu_1 li.dm_menu_item_1 a.dm_selected { position:relative;top:0px;background:none;color:#FFF; }
+#dm_tabs_1 ul.dm_menu_1 li.dm_menu_item_1 a:hover {background:none;color:#FFF; }
+#dm_container_1 {border:none;width:auto;height:auto;background:none;padding:5px;overflow:hidden; }
+#dm_container_1 .dm_tabcontent { }
+@media print { #dm_container_1 .dm_tabcontent {display:block !important; } }
+#dm_tabs_2 ul.dm_menu_2 { width:auto; margin:0; padding:0; list-style:none; float:right; }
+#dm_tabs_2 ul.dm_menu_2 li.dm_menu_item_2 { display: inline; margin:0 0 0 0; padding:0; float:left; background:none; }
+#dm_tabs_2 ul.dm_menu_2 li.dm_menu_item_2 a { font:bold 14px Arial; float:left; color:#FFF; padding:5px 11px 5px 11px; text-decoration:none; }
+#dm_tabs_2 ul.dm_menu_2 li.dm_menu_item_2 a.dm_selected { position:relative;top:0px;background:none;color:#FFF; }
+#dm_tabs_2 ul.dm_menu_2 li.dm_menu_item_2 a:hover {background:none;color:#FFF; }
+#dm_container_2 {border:none;width:auto;height:auto;background:none;padding:5px;overflow:hidden; }
+#dm_container_2 .dm_tabcontent {display:none; }
+@media print { #dm_container_2 .dm_tabcontent {display:block !important; } }
+#dm_tabs_3 ul.dm_menu_3 { width:auto; margin:0; padding:0; list-style:none; float:right; }
+#dm_tabs_3 ul.dm_menu_3 li.dm_menu_item_3 { display: inline; margin:0 0 0 0; padding:0; float:left; background:none; }
+#dm_tabs_3 ul.dm_menu_3 li.dm_menu_item_3 a { font:bold 14px Arial; float:left; color:#FFF; padding:5px 11px 5px 11px; text-decoration:none; }
+#dm_tabs_3 ul.dm_menu_3 li.dm_menu_item_3 a.dm_selected { position:relative;top:0px;background:none;color:#FFF; }
+#dm_tabs_3 ul.dm_menu_3 li.dm_menu_item_3 a:hover {background:none;color:#FFF; }
+#dm_container_3 {border:none;width:auto;height:auto;background:none;padding:5px;overflow:hidden; }
+#dm_container_3 .dm_tabcontent {display:none; }
+@media print { #dm_container_3 .dm_tabcontent {display:block !important; } }
+#dm_tabs_4 ul.dm_menu_4 { width:auto; margin:0; padding:0; list-style:none; float:right; }
+#dm_tabs_4 ul.dm_menu_4 li.dm_menu_item_4 { display: inline; margin:0 0 0 0; padding:0; float:left; background:none; }
+#dm_tabs_4 ul.dm_menu_4 li.dm_menu_item_4 a { font:bold 14px Arial; float:left; color:#FFF; padding:5px 11px 5px 11px; text-decoration:none; }
+#dm_tabs_4 ul.dm_menu_4 li.dm_menu_item_4 a.dm_selected { position:relative;top:0px;background:none;color:#FFF; }
+#dm_tabs_4 ul.dm_menu_4 li.dm_menu_item_4 a:hover {background:none;color:#FFF; }
+#dm_container_4 {border:none;width:auto;height:auto;background:none;padding:5px;overflow:hidden; }
+#dm_container_4 .dm_tabcontent {display:none; }
+@media print { #dm_container_4 .dm_tabcontent {display:block !important; } }
+#wp-body,		#wp-header_inner,		#wp-footer_inner1 {			width: 970px;			margin: 0 auto;		}				#wp-leftsidecontent {			float: left;			width: 210px;			left: -760px;		}		#wp-maincontent {			float: left;			width: 760px;			left: 210px;		}		#wp-rightsidecontent {			float: right;			width: 210px;		}		#wp-centercol {			width: 760px;		}				div.product-listing-container h3.wp-moduletitle {			width: 760px;		}				#wp-master.wp-textstyle-business {			font-family: Arial, Helvetica, sans-serif;		}				#wp-master.wp-textstyle-Array {			font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;		}				#wp-master.wp-textstyle-Array {			font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;		}				#wp-master.wp-textstyle-Array {			font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;		}				#wp-master.wp-textstyle-Array {			font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;		}				#wp-master.wp-textstyle-Array {			font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;		}				#wp-master.wp-textstyle-Array {			font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;		}				#wp-master.wp-textstyle-Array {			font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;		}				#wp-master.wp-textstyle-Array {			font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;		}				#wp-master.wp-textstyle-Array {			font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;		}				#wp-master.wp-textstyle-Array {			font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;		}				#wp-master.wp-textstyle-business.wp-textsize-medium {			font-size: 75%;		}
